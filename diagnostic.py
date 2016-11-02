@@ -33,4 +33,4 @@ var3d = ['ABIO_D14Cocn','ABIO_DIC','ABIO_DIC14']
 for cs in case:
 	ds = xr.open_dataset('c14_coupling_'+cs+'.nc', decode_times=False)
 	for var in var3d:
-		plotsurf(ds,var,cs)
+		plotsurf3d(ds,var,cs)
