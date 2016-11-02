@@ -6,7 +6,7 @@ def plotsurf(dset,var,case):
 	ax = fig.add_subplot(1,1,1)
 	dset[var].mean(dim='time').plot(ax=ax)
 	plt.savefig('plots/'+case+var+'.pdf')
-	
+	plt.close()
 	
 	
 	
