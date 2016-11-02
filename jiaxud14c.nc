@@ -1,0 +1,1 @@
+/glade/p/work/che43/data/inputdata/21ka/ABIO_DIC_DIC14_year_6000_C14_21ka.nc
