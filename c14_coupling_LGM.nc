@@ -1,0 +1,1 @@
+/glade/scratch/che43/archive/b.e13.Bi1850C5.f19_g16.21ka.06.test/ocn/hist/c14_coupling_LGM.nc
