@@ -1,8 +1,5 @@
 from quickImpt import *
 
-
-
-
 def plotsurf(dset,var,case):
 	fig = plt.figure(figsize=(8,5))
 	ax = fig.add_subplot(1,1,1)
@@ -18,6 +15,6 @@ var3d = ['ABIO_D14Cocn','ABIO_DIC','ABIO_DIC14']
 for cs in case:
 	ds = xr.open_dataset('c14_coupling_'+cs+'.nc', decode_times=False)
 	for var in var2d:
-		plotsurf(ds,var,case):
+		plotsurf(ds,var,cs)
 	
 	
